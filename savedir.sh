@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "Type the path to directory to copy (Full path): "
+echo "Type the path to the directory to copy (Full path): "
 read SOURCE_DIRECTORY
 
 BACKUP_DIRECTORY="/home/$USER/backups"
