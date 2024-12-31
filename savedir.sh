@@ -1,7 +1,11 @@
 #!/bin/bash
 
-echo "Type the path to the directory to copy (Full path): "
-read SOURCE_DIRECTORY
+if [ $# -eq 0 ]; then
+        echo "Type the path to directory to copy (Full path): "
+        read SOURCE_DIRECTORY
+else
+        SOURCE_DIRECTORY=$1
+fi
 
 BACKUP_DIRECTORY="/home/$USER/backups"
 
