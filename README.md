@@ -2,8 +2,6 @@ This script creates a copy of a folder of your choice.
 
 You can just type ```sh savedir.sh``` for an interactive usage.
 
-(Or type first ```chmod +x savedir.sh``` if you want to skip ```sh``` and type directly ```./savedir.sh```)
-
 You can also add directly the path to the source folder as argument like this:
 
 ```sh savedir.sh /home/toto/Downloads``` 
